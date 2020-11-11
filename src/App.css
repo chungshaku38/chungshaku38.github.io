@@ -155,12 +155,45 @@
     border-color: transparent transparent transparent #739fe4;
 }
 
-
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
+}
+
+.about-container { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    /*  */
+}
+
+.about-container::after {
+    content: "";
+    background: url('https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.0-9/124199710_1727524430743344_3893927311578565438_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=k_v_l-_T62YAX-T-P2Z&_nc_ht=scontent.fsgn2-5.fna&oh=5f1e46727fedcda3c0a4381a8defccde&oe=5FD1F8C9') no-repeat center center fixed;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.about-grid {
+    margin: 0;
+    top: 50%;
+}
+
+.about-grid .about-content {
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 10px;
 }

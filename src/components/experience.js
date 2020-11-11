@@ -19,7 +19,7 @@ function Experiences() {
             ]
         },
         {
-            imageUrl: 'https://atix.de/wp-content/uploads/apache-kafka-300x300.png',
+            imageUrl: 'https://i2.wp.com/softwareengineeringdaily.com/wp-content/uploads/2020/02/apache-kafka.png?w=730&ssl=1',
             label: 'Backend',
             items: [
                 {
