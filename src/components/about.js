@@ -10,7 +10,9 @@ const About = () => {
 
                         </List>
                         <h4>I love writing code, passionated technical problem solving and software architecture designing</h4>
-                        <p>I have more than 10 years working in software development, for both outsourcing and product company </p>
+                        <p>I have more than 10 years working in software development, for both outsourcing and product company. Interested in working in backend, frontend, database, data visualization... </p>
+                        <br></br>
+                        
                     </Cell>
                     
                 </Grid>
