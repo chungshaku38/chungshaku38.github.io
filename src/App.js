@@ -13,30 +13,20 @@ function App() {
   return (
     <div >
         <Layout className='appRoot'>
-            <div >
-                <Header className='container' title="Chung Nguyen" scroll>
-                    <Navigation>
+            <Header className='container' title="Chung Nguyen" scroll>
+                <Navigation>
+                    {menus.map(item => {
+                        return <Link to={item.path}>{item.title}</Link>
+                    })}
+                </Navigation>
+            </Header>
+            <Drawer title="Chung Nguyen">
+                <Navigation>
                         {menus.map(item => {
                             return <Link to={item.path}>{item.title}</Link>
                         })}
                     </Navigation>
-                </Header>
-                {/* <Drawer title="Chung Nguyen">
-                    <Navigation>
-                            {menus.map(item => {
-                                return <Link to={item.path}>{item.title}</Link>
-                            })}
-                        </Navigation>
-                </Drawer> */}
-                <Drawer title="Title">
-            <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </Navigation>
-        </Drawer>
-            </div>
+            </Drawer>
             
             <Content>
                 <Main />
