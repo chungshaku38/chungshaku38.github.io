@@ -24,11 +24,11 @@ function Experiences() {
             items: [
                 {
                     icon: 'done',
-                    title: 'Deep knowledege about Apache Kafka'
+                    title: 'Manage Kafka cluster/configuration'
                 },
                 {
                     icon: 'done',
-                    title: 'Design & integrate application with Kafka'
+                    title: 'Communication betweens services'
                 }
             ]
         },
@@ -38,11 +38,7 @@ function Experiences() {
             items: [
                 {
                     icon: 'done',
-                    title: 'ReactJS'
-                },
-                {
-                    icon: 'done',
-                    title: 'Material UI'
+                    title: 'ReactJS + Material UI'
                 }
             ]
         },
@@ -117,12 +113,12 @@ function Experiences() {
                     {exps.map((ex) => {
                         return <Cell col={3}>
                                     <div className='cell-border'>
-                                        <h4 className='tag'>{ex.label}</h4>
+                                        <p className='tag'>{ex.label}</p>
                                         <img src={ex.imageUrl} className='card-content-img' />
                                         <List>
                                             {
                                                 ex.items.map(item => { 
-                                                    return <ListItem>
+                                                    return <ListItem className='card-list-item'>
                                                                 <ListItemContent icon={item.icon} > {item.title} </ListItemContent>
                                                             </ListItem>
                                                 })
