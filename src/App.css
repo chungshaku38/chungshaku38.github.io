@@ -212,6 +212,7 @@
     height: 100%;
     justify-content: center;
     padding-top: 2em;
+    overflow: auto;
   }
   
   .contact-grid {
@@ -247,7 +248,7 @@
   }
 
   .contact-avatar {
-      height: 400px;
+      width: 50%;
       border-radius: 50%;
   }
 
