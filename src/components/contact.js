@@ -15,7 +15,7 @@ class Contact extends Component {
               alt="avatar"
               className='contact-avatar'
             />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Feel free to reach me out</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Life is journey, not destination</p>
 
           </Cell>
           <Cell col={6}>

@@ -10,6 +10,11 @@ function App() {
         {path: '/experience', title: 'Experience'}, 
         {path: '/contact', title: 'Contact'}, 
     ];
+
+    function hideToggle() {
+        var selectorId = document.querySelector('.mdl-layout');
+        selectorId.MaterialLayout.toggleDrawer();
+    }
   return (
     <div >
         <Layout className='appRoot'>
@@ -23,7 +28,7 @@ function App() {
             <Drawer title="Chung Nguyen">
                 <Navigation>
                         {menus.map(item => {
-                            return <Link to={item.path}>{item.title}</Link>
+                            return <Link to={item.path} onClick={hideToggle}>{item.title}</Link>
                         })}
                     </Navigation>
             </Drawer>
