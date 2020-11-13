@@ -265,7 +265,9 @@
     padding-right: 2rem;
   }
 
-  
+  .mdl-grid {
+    justify-content: center;
+  }
   
   /* contact page css */
   p {
