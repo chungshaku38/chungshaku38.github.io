@@ -5,7 +5,7 @@ class LandingPage extends Component {
     render() {
         return (
             <div style={{width: '10O%', height: '100%' }}>
-                <Grid className='landing-grid'>
+                <Grid className='landing-grid gradient-background'>
                     <Cell col={3} phone={0}></Cell>
                     <Cell col={6} phone={12}>
                         <img src='https://scontent.fsgn5-7.fna.fbcdn.net/v/t1.0-9/53327544_1201427780019681_7002745916142649344_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=JdoNgvSBl_8AX_rtnjJ&_nc_ht=scontent.fsgn5-7.fna&oh=ef0a13428338ac6549bc78168cfeb790&oe=5FCACDDE' 
